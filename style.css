@@ -15,7 +15,7 @@ body::before{
     right: 0;
     z-index: -1;
     display: block;
-    background-image: url("images/bg.jpeg");
+    background-image: url("imagens galeria/time haikyuu.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,29 +35,29 @@ header{
     align-items: center;
 }
 h1{
-    font-size: 150px;
+    font-size: 100px;
     font-family: "Overpass", sans-serif;
     font-style: normal;
-    color: #214712;
+    color: #cf6006;
     transition: transform .5s linear;
 }
 h1:hover{
     transform: scale(1.2);
-    color: #48ff00;
+    color: #ca6008;
 }
 h2{
-    color: #3d3c3c;
+    color: #924507;
     justify-content: center;
     display: flex;
     align-items: center;
-    font-size: 80px;
+    font-size: 60px;
     font-style: oblique;
     margin: 10px 10px 10px;
     transition: transform .4s linear;
 }
 h2:hover{
     transform: scale(1.1);
-    color: #FFF;
+    color: #f16615;
 }
 .gallery-conteiner{
     display: flex;
@@ -79,9 +79,7 @@ h2:hover{
     height: 100%;
     object-fit: cover;
 }
-.itens-galeria:hover{
-    transform: scale(1.1);
-}
+
 .videos-conteiner{
     display: flex;
     flex-wrap: wrap;
